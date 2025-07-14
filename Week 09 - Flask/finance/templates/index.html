@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    User Info
+{% endblock %}
+
+{% block main %}
+    <table>
+        <tr>
+            <th>Symbol</th>
+            <th>Number of shares</th>
+            <th>Current price</th>
+            <th>Total Value</th>
+        </tr>
+        {% for share in shares %}
+
+            <tr>
+                <td>{{ share.symbol }}</td>
+                <td>{{ share.shares }}</td>
+                <td>{{ share.price }}</td>
+                <td>{{ share.total }}</td>
+            </tr>
+
+        {% endfor %}
+    </table>
+
+    <p>Current Cash Balance: {{ cash }}</p>
+    <p>Grand Total: {{ grandtotal }}</p>
+
+    <form action="/" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="addcash" placeholder="Add Cash" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Add Cash</button>
+    </form>
+{% endblock %}

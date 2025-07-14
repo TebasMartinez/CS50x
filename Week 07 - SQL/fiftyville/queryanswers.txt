@@ -1,0 +1,157 @@
+CRIME SCENE DESCRIPTION
+Theft of the CS50 duck took place at 10:15am at the Humphrey Street bakery. Interviews were conducted today with three
+witnesses who were present at the time – each of their interview transcripts mentions the bakery.
+-- Littering took place at 16:36. No known witnesses.
+
+INTERVIEWS
+-----------------------------------------------------------------+
+|  name   |                                                                                                                                                     transcript                                                                                                                                                      |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jose    | “Ah,” said he, “I forgot that I had not seen you for some weeks. It is a little souvenir from the King of Bohemia in return for my assistance in the case of the Irene Adler papers.”                                                                                                                               |
+| Eugene  | “I suppose,” said Holmes, “that when Mr. Windibank came back from France he was very annoyed at your having gone to the ball.”                                                                                                                                                                                      |
+| Barbara | “You had my note?” he asked with a deep harsh voice and a strongly marked German accent. “I told you that I would call.” He looked from one to the other of us, as if uncertain which to address.                                                                                                                   |
+| Ruth    | Sometime within ten minutes of the theft, I saw the thief get into a car in the bakery parking lot and drive away. If you have security footage from the bakery parking lot, you might want to look for cars that left the parking lot in that time frame.                                                          |
+| Eugene  | I don't know the thief's name, but it was someone I recognized. Earlier this morning, before I arrived at Emma's bakery, I was walking by the ATM on Leggett Street and saw the thief there withdrawing some money.                                                                                                 |
+| Raymond | As the thief was leaving the bakery, they called someone who talked to them for less than a minute. In the call, I heard the thief say that they were planning to take the earliest flight out of Fiftyville tomorrow. The thief then asked the person on the other end of the phone to purchase the flight ticket. |
+| Lily    | Our neighboring courthouse has a very annoying rooster that crows loudly at 6am every day. My sons Robert and Patrick took the rooster to a city far, far away, so it may never bother us again. My sons have successfully arrived in Paris.                                                                        |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+BAKERY SECURITY LOG
++-----+------+-------+-----+------+--------+----------+---------------+
+| id  | year | month | day | hour | minute | activity | license_plate |
++-----+------+-------+-----+------+--------+----------+---------------+
+| 254 | 2024 | 7     | 28  | 9    | 14     | entrance | 4328GD8       |
+| 255 | 2024 | 7     | 28  | 9    | 15     | entrance | 5P2BI95       |
+| 256 | 2024 | 7     | 28  | 9    | 20     | entrance | 6P58WS2       |
+| 257 | 2024 | 7     | 28  | 9    | 28     | entrance | G412CB7       |
+| 258 | 2024 | 7     | 28  | 10   | 8      | entrance | R3G7486       |
+| 259 | 2024 | 7     | 28  | 10   | 14     | entrance | 13FNH73       |
+| 260 | 2024 | 7     | 28  | 10   | 16     | exit     | 5P2BI95       |
+| 261 | 2024 | 7     | 28  | 10   | 18     | exit     | 94KL13X       |
+| 262 | 2024 | 7     | 28  | 10   | 18     | exit     | 6P58WS2       |
+| 263 | 2024 | 7     | 28  | 10   | 19     | exit     | 4328GD8       |
+| 264 | 2024 | 7     | 28  | 10   | 20     | exit     | G412CB7       |
+| 265 | 2024 | 7     | 28  | 10   | 21     | exit     | L93JTIZ       |
+| 266 | 2024 | 7     | 28  | 10   | 23     | exit     | 322W7JE       |
+| 267 | 2024 | 7     | 28  | 10   | 23     | exit     | 0NTHK55       |
+| 268 | 2024 | 7     | 28  | 10   | 35     | exit     | 1106N58       |
+| 269 | 2024 | 7     | 28  | 10   | 42     | entrance | NRYN856       |
+| 270 | 2024 | 7     | 28  | 10   | 44     | entrance | WD5M8I6       |
+| 271 | 2024 | 7     | 28  | 10   | 55     | entrance | V47T75I       |
+| 272 | 2024 | 7     | 28  | 11   | 6      | entrance | 4963D92       |
+| 273 | 2024 | 7     | 28  | 11   | 13     | entrance | C194752       |
+| 274 | 2024 | 7     | 28  | 11   | 52     | entrance | 94MV71O       |
++-----+------+-------+-----+------+--------+----------+---------------+
+
+ATM TRANSACTIONS
++-----+----------------+------+-------+-----+----------------+------------------+--------+
+| id  | account_number | year | month | day |  atm_location  | transaction_type | amount |
++-----+----------------+------+-------+-----+----------------+------------------+--------+
+| 246 | 28500762       | 2024 | 7     | 28  | Leggett Street | withdraw         | 48     |
+| 264 | 28296815       | 2024 | 7     | 28  | Leggett Street | withdraw         | 20     |
+| 266 | 76054385       | 2024 | 7     | 28  | Leggett Street | withdraw         | 60     |
+| 267 | 49610011       | 2024 | 7     | 28  | Leggett Street | withdraw         | 50     |
+| 269 | 16153065       | 2024 | 7     | 28  | Leggett Street | withdraw         | 80     |
+| 275 | 86363979       | 2024 | 7     | 28  | Leggett Street | deposit          | 10     |
+| 288 | 25506511       | 2024 | 7     | 28  | Leggett Street | withdraw         | 20     |
+| 313 | 81061156       | 2024 | 7     | 28  | Leggett Street | withdraw         | 30     |
+| 336 | 26013199       | 2024 | 7     | 28  | Leggett Street | withdraw         | 35     |
++-----+----------------+------+-------+-----+----------------+------------------+--------+
++---------+----------------+-----------------+---------------+
+|  name   |  phone_number  | passport_number | license_plate |
++---------+----------------+-----------------+---------------+
+| Bruce   | (367) 555-5533 | 5773159633      | 94KL13X       |
+| Kaelyn  | (098) 555-1164 | 8304650265      | I449449       |
+| Diana   | (770) 555-1861 | 3592750733      | 322W7JE       |
+| Brooke  | (122) 555-4581 | 4408372428      | QX4YZN3       |
+| Kenny   | (826) 555-1652 | 9878712108      | 30G67EN       |
+| Iman    | (829) 555-5269 | 7049073643      | L93JTIZ       |
+| Luca    | (389) 555-5198 | 8496433585      | 4328GD8       |
+| Taylor  | (286) 555-6063 | 1988161715      | 1106N58       |
+| Benista | (338) 555-6650 | 9586786673      | 8X428L0       |
++---------+----------------+-----------------+---------------+
+
+PEOPLE WHO TOOK MONEY IN THE ATM AND WERE AT THE BAKERY THE DAY OF THE CRIME
++--------+----------------+-----------------+------+--------+----------+---------------+
+|  name  |  phone_number  | passport_number | hour | minute | activity | license_plate |
++--------+----------------+-----------------+------+--------+----------+---------------+
+| Iman   | (829) 555-5269 | 7049073643      | 8    | 18     | entrance | L93JTIZ       |
+| Bruce  | (367) 555-5533 | 5773159633      | 8    | 23     | entrance | 94KL13X       |
+| Taylor | (286) 555-6063 | 1988161715      | 8    | 34     | entrance | 1106N58       |
+| Diana  | (770) 555-1861 | 3592750733      | 8    | 36     | entrance | 322W7JE       |
+| Luca   | (389) 555-5198 | 8496433585      | 9    | 14     | entrance | 4328GD8       |
+| Bruce  | (367) 555-5533 | 5773159633      | 10   | 18     | exit     | 94KL13X       |
+| Luca   | (389) 555-5198 | 8496433585      | 10   | 19     | exit     | 4328GD8       |
+| Iman   | (829) 555-5269 | 7049073643      | 10   | 21     | exit     | L93JTIZ       |
+| Diana  | (770) 555-1861 | 3592750733      | 10   | 23     | exit     | 322W7JE       |
+| Taylor | (286) 555-6063 | 1988161715      | 10   | 35     | exit     | 1106N58       |
++--------+----------------+-----------------+------+--------+----------+---------------+
+
+FLIGHTS FROM FIFTYVILLE DAY AFTER CRIME
++------------+---------------+----+-------+-----+------+--------+
+|   origin   |  destination  | id | month | day | hour | minute |
++------------+---------------+----+-------+-----+------+--------+
+| Fiftyville | New York City | 36 | 7     | 29  | 8    | 20     |
+| Fiftyville | Chicago       | 43 | 7     | 29  | 9    | 30     |
+| Fiftyville | San Francisco | 23 | 7     | 29  | 12   | 15     |
+| Fiftyville | Tokyo         | 53 | 7     | 29  | 15   | 20     |
+| Fiftyville | Boston        | 18 | 7     | 29  | 16   | 0      |
++------------+---------------+----+-------+-----+------+--------+
+
+PEOPLE IN FLIGHTS THE 29TH WHO WERE AT THE BAKERY AND MADE TRANSACTIONS THE 28TH
++--------+----------------+-----------------+
+|  name  |  phone_number  | passport_number |
++--------+----------------+-----------------+
+| Diana  | (770) 555-1861 | 3592750733      |
+| Bruce  | (367) 555-5533 | 5773159633      |
+| Taylor | (286) 555-6063 | 1988161715      |
+| Luca   | (389) 555-5198 | 8496433585      |
++--------+----------------+-----------------+
+
+OUT OF THOSE PEOPLE, THOSE WHO CALLED THE 28TH
+
++--------+---------+----------+
+|  name  |  name   | duration |
++--------+---------+----------+
+| Bruce  | Robin   | 45       |
+| Bruce  | Deborah | 120      |
+| Bruce  | Gregory | 241      |
+| Taylor | James   | 43       |
+| Diana  | Philip  | 49       |
+| Taylor | Angela  | 235      |
+| Bruce  | Carl    | 75       |
++--------+---------+----------+
+
+THOSE WHO LEFT THE BAKERY BETWEEN 10:15 AND 10:30
++-------+---------+----------+
+| name  |  name   | duration |
++-------+---------+----------+
+| Bruce | Robin   | 45       |
+| Bruce | Deborah | 120      |
+| Bruce | Gregory | 241      |
+| Diana | Philip  | 49       |
+| Bruce | Carl    | 75       |
++-------+---------+----------+
+
+TIMES WHEN THEY LEFT THE BAKERY
++--------+-------+----------------+-----------------+---------------+-----+------+-------+-----+------+--------+----------+---------------+
+|   id   | name  |  phone_number  | passport_number | license_plate | id  | year | month | day | hour | minute | activity | license_plate |
++--------+-------+----------------+-----------------+---------------+-----+------+-------+-----+------+--------+----------+---------------+
+| 686048 | Bruce | (367) 555-5533 | 5773159633      | 94KL13X       | 261 | 2024 | 7     | 28  | 10   | 18     | exit     | 94KL13X       |
+| 514354 | Diana | (770) 555-1861 | 3592750733      | 322W7JE       | 266 | 2024 | 7     | 28  | 10   | 23     | exit     | 322W7JE       |
++--------+-------+----------------+-----------------+---------------+-----+------+-------+-----+------+--------+----------+---------------+
+
+DIANA LEFT THE BAKERY AROUND 10 MINS AFTER THE CRIME. CHECK WHERE SHE WENT
++------------+-------------+----+-------+-----+------+--------+
+|   origin   | destination | id | month | day | hour | minute |
++------------+-------------+----+-------+-----+------+--------+
+| Fiftyville | Boston      | 18 | 7     | 29  | 16   | 0      |
++------------+-------------+----+-------+-----+------+--------+
+
+-- After using check50 and checking I was wrong, the thief must be Bruce, and he just left the bakery at 10:18
+-- Check where he went
++------------+---------------+----+-------+-----+------+--------+
+|   origin   |  destination  | id | month | day | hour | minute |
++------------+---------------+----+-------+-----+------+--------+
+| Fiftyville | New York City | 36 | 7     | 29  | 8    | 20     |
++------------+---------------+----+-------+-----+------+--------+

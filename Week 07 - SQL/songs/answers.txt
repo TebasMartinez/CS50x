@@ -1,0 +1,4 @@
+SELECT AVG(energy + valence + danceability) FROM songs;
+
+This way of calculating the user's aura calculates its 'audio aura' based on three songs parameters that are heavely subjective.
+Maybe a better way would be to use more objective data, like genre of the songs, to get this aura.

@@ -1,0 +1,6 @@
+.DS_Store
+core
+vgcore*
+core.*
+vgcore.*
+flask_session/

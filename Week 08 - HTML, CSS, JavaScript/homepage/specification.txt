@@ -1,0 +1,22 @@
+10 HTML tags:
+<div>
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<p>
+<button>
+<ul>
+<li>
+
+5 CSS properties:
+background-color
+color
+margin-bottom
+padding
+text-align
+
+Description of JavaScript and Bootstrap use:
+Bootstrap: I use a dropdown in the about me page to dinamically show all the places I have lived in, linking to their Wikipedia pages.
+JavaScript: I use JavaScript to link the buttons to other pages within my website.
