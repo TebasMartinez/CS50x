@@ -1,6 +1,7 @@
 # CS50
 [Course](https://cs50.harvard.edu/x/2025/) \
 [Gradebook](https://cs50.me/cs50x) \
+[Certificates](https://certificates.cs50.io/) \
 [CS50 AI](https://cs50.ai/chat) \
 [CS50 Manual Pages](https://manual.cs50.io/) \
 [CS50 Docs](https://cs50.readthedocs.io/)
