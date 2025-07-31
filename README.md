@@ -1,10 +1,13 @@
 # CS50
+![certificate](https://certificates.cs50.io/6a30898e-db3e-4569-bbf5-cdf5430683e9.png?size=letter)
 [Course](https://cs50.harvard.edu/x/2025/) \
 [Gradebook](https://cs50.me/cs50x) \
 [Certificates](https://certificates.cs50.io/) \
 [CS50 AI](https://cs50.ai/chat) \
 [CS50 Manual Pages](https://manual.cs50.io/) \
 [CS50 Docs](https://cs50.readthedocs.io/)
+
+[Final Project](https://github.com/TebasMartinez/portfolio_website)
 
 ## Index
 Includes links to lectures and shorts.
